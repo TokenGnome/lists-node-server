@@ -82,4 +82,4 @@ app.get('/lists/:lid', loadUser, function(req, res) {
     });
 });
 
-app.listen(3000);
+app.listen(8080);
