@@ -1,0 +1,19 @@
+{
+  "name": "lists-node-server",
+  "preferGlobal": true,
+  "version": "0.3.0",
+  "author": "Token Gnome Sotware <support@tokengnome.com>",
+  "description": "HTTP server for accessing shared lists",
+  "contributors": [ 
+    {
+      "name": "Brandon Smith",
+      "email": "brandon@tokengnome.com"
+    } 
+  ],
+  "dependencies" : {
+    "redis"   :  "0.9.x",
+    "express" :  "3.4.x"
+  },
+  "analyze": false,
+  "license": "MIT"
+}
